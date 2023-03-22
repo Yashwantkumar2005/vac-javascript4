@@ -1,0 +1,15 @@
+<html>
+<body><h1>OUTPUT CONSOLE:</h1><h2><script>
+let a=[20,30,53,40,50,57,60,70,80,90],r;
+r=a.length;
+document.write("ORIGINAL ARRAY:");
+document.write("[",a,"]");
+document.write("<br>");
+document.write("<br>");
+for(i=0;i<r;i++){
+if(a[i]%10!=0){
+a.splice(i,1);
+}}
+document.write("RESULT ARRAY:");
+document.write("[",a,"]");
+</script></h2></body></html>
